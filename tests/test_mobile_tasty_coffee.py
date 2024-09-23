@@ -78,3 +78,4 @@ def test_remove_goods_from_cart():
     with allure.step('Check removing the product from cart'):
         browser.element((AppiumBy.XPATH, '//android.widget.TextView[@text="ВАША КОРЗИНА ПУСТА"]')).should(
             have.text('ВАША КОРЗИНА ПУСТА'))
+        browser.element((AppiumBy.XPATH, '//android.widget.Button[@text="Меню"]')).click()
