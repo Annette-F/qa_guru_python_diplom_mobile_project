@@ -29,7 +29,7 @@ def to_driver_options(context):
         load_dotenv(dotenv_path=utils.file.abs_path_from_project('.env.credential'))
         options.set_capability(
             'bstack:options', {
-                'projectName': 'Tasty Coffee project',
+                'projectName': 'Citilink project',
                 'buildName': 'browserstack-build',
                 'sessionName': 'BStack test',
                 'userName': os.getenv('USER_NAME'),
