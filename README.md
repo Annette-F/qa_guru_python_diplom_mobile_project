@@ -59,7 +59,7 @@ pytest --context=bstack
 Удаленный запуск автотестов выполняется на сервере Jenkins. 
 Для запуска автотестов в Jenkins необходимо:
 1. Открыть сборку в Jenkins 
-2. Нажать Build now
+2. Нажать Build with parameters
 
 По умолчанию используется конфиг BrowserStack. Для изменения конфига необходимо перед запуском тестов через pytest указать параметр context pytest --context=bstack / --context=local_emulator / --context=local_real_device в зависимости от того, где планируется запустить тесты.
 
