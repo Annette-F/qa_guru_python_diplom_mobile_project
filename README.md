@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования мобильного приложения интернет-магазина техники и электронники [Ситилинк](https://www.citilink.ru/) <img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/%D0%A1%D0%B8%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%BA.png" height="50" width="150">
+# Проект по автоматизации тестирования мобильного приложения интернет-магазина техники и электронники [Ситилинк](https://www.citilink.ru/) 
 
 
 ## :world_map: Содержание
@@ -9,34 +9,29 @@
 - [Отчет о результатах тестирования в Allure-reports](#bar_chart-Отчет-о-результатах-тестирования-в-Allure-reports)
 - [Статистика запуска тест-планов и отчеты в Allure TestOps](#bar_chart-Статистика-запуска-тест-планов-и-отчеты-в-Allure-TestOps)
 - [Уведомление в Telegram о результатах прогона тестов с использованием бота](#email-Уведомление-в-Telegram-о-результатах-прогона-тестов-с-использованием-бота)
-- [Видео-отчет прохождения UI-автотеста на Selenoid](#movie_camera-Видео-отчет-прохождения-UI-автотеста-на-Selenoid)
 - [Видео-отчет прохождения Mobile-автотеста](#movie_camera-Видео-отчет-прохождения-Mobile-автотеста)
-
-
-#### <img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/litres.svg" width="70" heigth="70"/> [Сайт онлайн-сервиса Litres](https://www.litres.ru/)
 
 
 ## :dart: Цель проекта
 
-Тестирование основных функций онлайн-сервиса, позволяющих пользователям пройти успешную авторизацию, найти интересующую книгу, добавить книгу в корзину, 
-добавить книгу в список отложенных книг. А также отсутствиии авторизации при неверно указанном пароле.
+Тестирование основных функций интернет-магазина, позволяющих найти нужный товар, добавить его с корзину или в список Избранных.
 
 
 ## :gear: Технологии и инструменты
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/python.svg" width="50" heigth="50"/>
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/jenkins.svg" width="50" heigth="50"/>
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/pycharm.svg" width="50" heigth="50"/>
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/pytest.svg" width="50" heigth="50"/>
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/github.svg" width="50" heigth="50"/>
-<img src="https://github.com/Annette-F/qa_guru_python_diplom_project_litres/blob/main/resources/images/AllureReport%20(1).png" height="50" width="50">
-<img src="https://github.com/Annette-F/qa_guru_python_diplom_project_litres/blob/main/resources/images/AllureTestOps.png" height="50" width="50">
-<img src="https://github.com/Annette-F/qa_guru_python_diplom_project_litres/blob/main/resources/images/Selenoid%20(1).png" height="50" width="50">
-<img src="https://github.com/Annette-F/qa_guru_python_diplom_project_litres/blob/main/resources/images/selene%20(1).png" height="50" width="50">
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/browserstack.svg" width="50" heigth="50"/>
-<img src="https://github.com/Annette-F/qa_guru_python_diplom_project_litres/blob/main/resources/images/appium.png" width="50" heigth="50"/>
-<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_project_litres/refs/heads/main/resources/images/Telegram.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/python.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/jenkins.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/pycharm.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/pytest.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/github.svg" width="50" heigth="50"/>
+<img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/AllureReport%20(1).png" height="50" width="50">
+<img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/AllureTestOps.png" height="50" width="50">
+<img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/selene%20(1).png" height="50" width="50">
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/browserstack.svg" width="50" heigth="50"/>
+<img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/appium.png" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/android-studio.svg" width="50" heigth="50"/>
+<img src="https://raw.githubusercontent.com/Annette-F/qa_guru_python_diplom_mobile_project/refs/heads/main/resources/images/Telegram.svg" width="50" heigth="50"/>
 </p>
 
 
