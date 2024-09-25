@@ -49,7 +49,7 @@
 Запуск тестов возможен как локально, так и удаленно через Jenkins.
 Для локального запуска тестов с дефолтными значениями необходимо выполнить команду:
 
-``
+``bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
