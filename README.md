@@ -77,19 +77,19 @@ pytest --context=bstack
 Общий результат прогона тестов
 
 <p>
-<img title="Общий результат прогона" src="resources/photo/общий отчет api.png">
+<img title="Общий результат прогона" src="resources/photo/allure overview.png">
 </p>
 
 Список тестов
 
 <p>
-<img title="Список API тестов" src="resources/photo/Список API тестов.png">
+<img title="Список API тестов" src="resources/photo/allure cases.png">
 </p>
 
 Пример результата прохождения теста
 
 <p>
-<img title="Пример API теста" src="resources/photo/отчет api.png">
+<img title="Пример API теста" src="resources/photo/allure report.png">
 </p>
 
 ## :bar_chart: Статистика запуска тест-планов и отчеты в Allure TestOps
@@ -99,20 +99,20 @@ pytest --context=bstack
 ### Пример Dashboard с общими результатами тестирования
 
 <p>
-<img title="Вфырищфкв" src="resources/photo/дашборд.png">
+<img title="Вфырищфкв" src="resources/photo/dashboard.png">
 </p>
 
 ### Общий список всех кейсов, имеющихся в системе
 
 <p>
-<img title="Список кейсов" src="resources/photo/тест кейсы.png">
+<img title="Список кейсов" src="resources/photo/testops cases.png">
 </p>
 
 
 ### Пример результата прохождения теста
 
 <p>
-<img title="Пример API" src="resources/photo/результат api.png">
+<img title="Пример API" src="resources/photo/testops report.png">
 </p>
 
 
@@ -124,7 +124,7 @@ pytest --context=bstack
 ### Результат прогона тестов 
 
 <p>
-<img title="Telegram" src="resources/photo/Результат прогона API тестов в Telegram.png">
+<img title="Telegram" src="resources/photo/telegram.png">
 </p>
 
 ## :movie_camera: Видео-отчет прохождения автотеста 
