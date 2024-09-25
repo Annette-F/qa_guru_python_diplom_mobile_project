@@ -49,17 +49,17 @@
 Запуск тестов возможен как локально, так и удаленно через Jenkins.
 Для локального запуска тестов с дефолтными значениями необходимо выполнить команду:
 
-`python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest `
+`python -m venv .venv`
+`source .venv/bin/activate`
+`pip install -r requirements.txt`
+`pytest `
 
 Удаленный запуск автотестов выполняется на сервере Jenkins. 
 Для запуска автотестов в Jenkins необходимо:
 1. Открыть сборку в Jenkins 
 2. Нажать Build now
 
-По умолчанию используется конфиг BrowserStackю Для изменения конфига необходимо перед запуском тестов через pytest указать параметр context pytest --context=bstack / --context=local_emulator / --context=local_real_device в зависимости от того, где планируется запустить тесты.
+По умолчанию используется конфиг BrowserStack. Для изменения конфига необходимо перед запуском тестов через pytest указать параметр context pytest --context=bstack / --context=local_emulator / --context=local_real_device в зависимости от того, где планируется запустить тесты.
 
 По умолчанию используется конфиг BrowserStack
 
