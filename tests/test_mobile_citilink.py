@@ -11,7 +11,7 @@ from selene import browser, have, be
 @allure.story('Search')
 def test_successfull_search_product():
     with allure.step('Open main page'):
-        # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
     with allure.step('Type search "Смартфон"'):
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonSearch')).click()
@@ -30,7 +30,7 @@ def test_successfull_search_product():
 @allure.story('Wishlist')
 def test_product_to_the_wishlish():
     with allure.step('Open main page'):
-        # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
     with allure.step('Type search "Смарт-часы"'):
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonSearch')).click()
@@ -54,7 +54,7 @@ def test_product_to_the_wishlish():
 @allure.story('Cart')
 def test_add_product_to_the_cart():
     with allure.step('Open main page'):
-        # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
     with allure.step('Type search "Ноутбук"'):
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonSearch')).click()
@@ -79,8 +79,8 @@ def test_add_product_to_the_cart():
 @allure.feature('Change city')
 @allure.story('Profile')
 def test_select_my_city():
-    # with allure.step('Open main page'):
-    #     browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+    with allure.step('Open main page'):
+        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
     with allure.step('Declain city'):
         browser.element((AppiumBy.XPATH, '//android.widget.Button[@resource-id="android:id/button2"]')).click()
     with allure.step('Select "Москва"'):
