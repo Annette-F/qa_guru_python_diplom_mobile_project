@@ -30,7 +30,7 @@ def test_app():
 @allure.story('Wishlist')
 def test_app():
     with allure.step('Open main page'):
-        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+        # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
     with allure.step('Type search "Смарт-часы"'):
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonSearch')).click()
@@ -54,7 +54,7 @@ def test_app():
 @allure.story('Cart')
 def test_app():
     with allure.step('Open main page'):
-        browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+        # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
     with allure.step('Type search "Ноутбук"'):
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonSearch')).click()
