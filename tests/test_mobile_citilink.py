@@ -71,3 +71,24 @@ def test_add_product_to_the_cart():
         browser.element((AppiumBy.ID, 'ru.citilink:id/textViewCartBottomOrderTotalLabel')).should(
             have.text('Сумма к оплате'))
         browser.element((AppiumBy.ID, 'ru.citilink:id/buttonMakeOrder')).should(have.text('К оформлению'))
+
+
+@allure.tag('Mobile')
+@allure.severity(Severity.CRITICAL)
+@allure.label('owner', 'Annette-F')
+@allure.feature('Change city')
+@allure.story('Profile')
+def test_select_my_city():
+    # with allure.step('Open main page'):
+    #     browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
+    with allure.step('Declain city'):
+        browser.element((AppiumBy.XPATH, '//android.widget.Button[@resource-id="android:id/button2"]')).click()
+    with allure.step('Select "Москва"'):
+        browser.element((AppiumBy.XPATH,
+                         '//android.widget.TextView[@resource-id="ru.citilink:id/textViewCityName" and @text="Москва"]')).click()
+    with allure.step('Open profile'):
+        browser.element((AppiumBy.XPATH, '//android.widget.FrameLayout[@content-desc="Профиль"]')).click()
+    with allure.step('Check selected city'):
+        browser.element((AppiumBy.XPATH,
+                         '//android.widget.TextView[@resource-id="ru.citilink:id/textViewProfileCityValue"]')).should(
+            have.text('Москва'))
