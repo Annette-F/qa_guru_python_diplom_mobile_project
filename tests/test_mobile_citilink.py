@@ -9,7 +9,7 @@ from selene import browser, have, be
 @allure.label('owner', 'Annette-F')
 @allure.feature('Successfull search product')
 @allure.story('Search')
-def test_app():
+def test_successfull_search_product():
     with allure.step('Open main page'):
         # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
@@ -28,7 +28,7 @@ def test_app():
 @allure.label('owner', 'Annette-F')
 @allure.feature('Add the product to the Wishlist')
 @allure.story('Wishlist')
-def test_app():
+def test_product_to_the_wishlish():
     with allure.step('Open main page'):
         # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
@@ -52,7 +52,7 @@ def test_app():
 @allure.label('owner', 'Annette-F')
 @allure.feature('Add product to the cart')
 @allure.story('Cart')
-def test_app():
+def test_add_product_to_the_cart():
     with allure.step('Open main page'):
         # browser.element((AppiumBy.ID, 'com.android.permissioncontroller:id/permission_allow_button')).click()
         browser.element((AppiumBy.ID, 'android:id/button1')).click()
