@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования мобильного приложения интернет-магазина техники и электронники [Ситилинк](https://www.citilink.ru/) <img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/%D0%A1%D0%B8%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%BA.png" height="50" width="50">
+# Проект по автоматизации тестирования мобильного приложения интернет-магазина техники и электронники [Ситилинк](https://www.citilink.ru/) <img src="https://github.com/Annette-F/qa_guru_python_diplom_mobile_project/blob/main/resources/images/%D0%A1%D0%B8%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%BA.png" height="50" width="150">
 
 
 ## :world_map: Содержание
