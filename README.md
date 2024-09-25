@@ -49,12 +49,12 @@
 Запуск тестов возможен как локально, так и удаленно через Jenkins.
 Для локального запуска тестов с дефолтными значениями необходимо выполнить команду:
 
-``bash
+```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pytest
-``
+pytest --context=bstack 
+```
 
 Удаленный запуск автотестов выполняется на сервере Jenkins. 
 Для запуска автотестов в Jenkins необходимо:
